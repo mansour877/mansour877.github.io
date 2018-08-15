@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <title>Peaky Blinders</title>
+
+ <!-- style.css -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+<!-- adjusting screen on deffrent mobiles -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- saving the page as an app on mobiles -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+</head>
+<body>
+  
+   <!-- Home Screen -->  
+<div id="HomeScreen">
+
+ <video  autoplay muted loop id="bg">
+  <source src="videos/bg.mp4" type="video/mp4">
+ </video> 
+
+ <audio  id="lalala" volume="100%" onended="finishl()"> 
+  <source src="sounds/lalala.mp3" type="audio/mpeg" >
+ Your browser does not support the audio element.
+ </audio>
+
+ <img id="peaky" src="images/peaky.gif" alt="">
+
+ <img id="playlalala" src="images/playlalala.png" onclick="playl()"  alt="">
+ <img id="pauselalala" src="images/pauselalala.png" onclick="pausel()" alt="">
+ <img id="startAgainlalala" src="images/startAgainlalala.png" onclick="startAgainl()" alt="">
+
+ <img id="go" src="images/go.png" onclick="goMenu()" alt="">
+</div>
+
+
+
+
+   <!-- MenuScreen --> 
+<div id="MenuScreen">
+ <img id="bgMenu" source src="images/bgMenu.png" type="image/png"> 
+
+ <audio  id="themeSong" volume="100%" onended="finishT()"> 
+  <source src="sounds/themeSong.mp3" type="audio/mpeg" >
+ Your browser does not support the audio element.
+ </audio>
+
+ <img id="playTheme" src="images/playTheme.png" onclick="playT()"  alt="">
+ <img id="pauseTheme" src="images/pauseTheme.png" onclick="pauseT()" alt="">
+ <img id="startAgainTheme" src="images/startAgainTheme.png" onclick="startAgainT()" alt="">
+
+<nav>  
+	<img id="home" src="images/Home.png" onclick="goHome()" alt="">
+</nav>
+ 
+
+ <div id="menuList" style="color: white;" type="text" >
+ 
+  <H2>Fan Videos</H2>
+  <H2>Real Beaky Bliders</H2>
+  <H2>Sound Tracks</H2>
+  <H2>Best Scenes</H2>
+  <H2>Cast</H2>
+  <H2>characters</H2>
+  <H2>Story</H2>
+  <H2>Watch Episodes</H2>
+  <H2>Social Media</H2>
+ </div> 
+</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="java.js"></script>
+<script src="jquery-3.3.1.min"></script>
+
+</body>
+</html>

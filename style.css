@@ -1,0 +1,121 @@
+
+
+div#MenuScreen{
+   visibility: hidden;
+   text-align: center;
+
+}
+
+
+div#HomeScreen{
+  text-align: center;
+  visibility: visible;
+}
+
+
+
+/* Home */
+#bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+#peaky {
+  position: fixed; 
+  top: 75%;
+  left: 1%;
+  width: 450px;
+  height: 120px;
+  }
+
+
+/* Menu */
+#bgMenu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#go {
+  position: fixed; 
+  top: 89%;
+  left: 95%;
+  width: 50px;
+  height: 50px;
+
+}
+
+#home{
+  position: fixed; 
+  top: 89%;
+  left: 95%;
+  width: 50px;
+  height: 50px;
+}
+
+
+
+/*lalala*/
+#playlalala{
+  position: fixed; 
+  top: 82%;
+  left: 95%;
+  width: 50px;
+  height: 40px; 
+  border: transparent;
+}
+
+#pauselalala{
+  position: fixed; 
+  top: 82%;
+  left: 95%;
+  width: 50px;
+  height: 40px; 
+  border: transparent;
+  visibility: hidden;
+}
+
+#startAgainlalala{
+  position: fixed; 
+  top: 74%;
+  left: 1305px;
+  width: 40px;
+  height: 40px; 
+}
+
+/*theme song*/
+#playTheme{
+  position: fixed; 
+  top: 82%;
+  left: 95%;
+  width: 50px;
+  height: 40px; 
+  border: transparent;
+
+}
+
+#pauseTheme{
+  position: fixed; 
+  top: 82%;
+  left: 95%;
+  width: 50px;
+  height: 40px; 
+  visibility: hidden;
+
+}
+
+#startAgainTheme{
+  position: fixed; 
+  top: 74%;
+  left: 1305px;
+  width: 40px;
+  height: 40px;
+ 
+}
+
